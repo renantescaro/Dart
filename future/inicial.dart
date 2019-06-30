@@ -1,7 +1,5 @@
 import 'dart:async';
 
-import 'dart:ffi';
-
 class Pessoa{
   String nome;
   String sobrenome;
@@ -16,8 +14,6 @@ class Pessoa{
 }
 
 main() {
-  List<Pessoa> pe = new List<Pessoa>();
-
   imprimirPessoas().then((dynamic resultado) => print(resultado[0].Nome));
 }
 
