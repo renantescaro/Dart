@@ -1,0 +1,5 @@
+name: sqlite
+dependencies:
+  path:
+  sqflite:
+program: 'main.dart'
